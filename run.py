@@ -1,4 +1,3 @@
-from mlforkids import MLforKidsImageProject
 
 # treat this key like a password and keep it secret!
 key = "777969f0-6b1e-11ed-9a01-ab90ff78a057a28b7bfb-e324-4d0e-9e7c-0bdca43ff35e"
