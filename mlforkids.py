@@ -1,7 +1,7 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-tf.get_logger().setLevel('ERROR')
+
 
 import tensorflow_hub as hub
 from tensorflow.keras.preprocessing import image
