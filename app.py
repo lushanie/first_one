@@ -5,13 +5,13 @@ import streamlit as st
 import pandas as pd
 
 
-countries = ['China', 'India', 'Sri Lanka','United States']
+countries = ['China', 'India', 'Sri Lanka','United States','Italy','France']
 data_types = ['cases', 'deaths', 'recoveries']
 country = st.sidebar.selectbox('What is your country',countries)
 days = st.sidebar.slider('days',min_value=1,max_value=90,step=1)
 data_type = st.sidebar.multiselect('Pick data types',data_types)
-country_code = {'Sri Lanka': 'lk', 'United States': 'us',
-                'China': 'cn', 'India': 'in', 'Italy': 'it'}
+country_code = {'Sri Lanka': 'lk', 'United States': '   ',
+                'China': 'cn', 'India': 'in', 'Italy': 'it','France':'fr'}
 
 
 #Total_cases
